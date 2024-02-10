@@ -1,0 +1,24 @@
+{
+  "name": "***Plugin name***",
+  "category": "***Plugin category***",
+  "imageUrl": "***Plugin imageUrl***",
+  "type": "default",
+  "isDynamic": false,
+  "initConfig": {
+    "text": "This is an annoucement",
+    "icon": "campaign",
+    "toast": 
+      {
+        "title": "Success",
+        "info": "Congratulations this is a success message, well done",
+        "icon": "check_circle",
+        "titleColor": "#13b04d",
+        "border": "#16a34a",
+        "color": "#86efac"
+      }
+    
+  },
+
+  "sortOrder": 100000,
+  "visibility": "internal"
+}
