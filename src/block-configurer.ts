@@ -8,54 +8,60 @@ export const optionals: ConfigurerOptionalPaths = [["settings"]];
 export const configurer: Configurer = {
   name: "Text",
   screens: [
+    // {
+    //   name: "Properties",
+    //   content: [
+    //     {
+    //       type: "text",
+    //       name: ["settings", "name"],
+    //       label:"he",
+    //       optional: true,
+    //       hidden: true
+    //     },
+    //     {
+    //       type: "text",
+    //       name: ["settings", "tag"],
+    //       optional: true,
+    //       hidden: true
+    //     },
+    //     {
+    //       type: "text",
+    //       name: ["text"],
+    //       label: "Text"
+    //     },
+    //     {
+    //       type: "icon-picker",
+    //       name: ["icon"],
+    //       label: "Icon"
+    //     }
+    //   ]
+    // },
     {
-      name: "Properties",
-      content: [
-        {
-          type: "text",
-          name: ["settings", "name"],
-          label:"he",
-          optional: true,
-          hidden: true
-        },
-        {
-          type: "text",
-          name: ["settings", "tag"],
-          optional: true,
-          hidden: true
-        },
-        {
-          type: "text",
-          name: ["text"],
-          label: "Text"
-        },
-        {
-          type: "icon-picker",
-          name: ["icon"],
-          label: "Icon"
-        }
-      ]
-    }, {
       name: "Create Toast",
       content: [
         {
           type: "text",
-          name: ["toast","title"],
-          label:"title of toast"
+          name: ["title"],
+          label:"Title of Toast"
+        },
+        {
+          type: "text",
+          name: ["info"],
+          label:"Info of Toast"
         },
         {
           type: "icon-picker",
-          name: ["toast","icon"],
+          name: ["icon"],
           label: "Icon",
         },
         {
           type: "color-picker",
-          name: ["toast","color"],
+          name: ["color"],
           label:"Choose the background color"
         },
         {
           type: "color-picker",
-          name: ["toast","titleColor"],
+          name: ["titleColor"],
           label:"Choose the title color"
         },
       ]

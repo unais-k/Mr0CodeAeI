@@ -11,7 +11,6 @@ const BlockConfigurer: React.FC<ConfigurerComponentProps> = ({
   onConfigChange,
   addChild
 }) => {
-  console.log(addChild,configurer);
   return (
     <RenderConfigurer
       configurer={configurer}
